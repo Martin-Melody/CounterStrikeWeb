@@ -1,0 +1,95 @@
+<!--------------------------------------
+	Author: Martin Melody
+	Date : 15/03/2021
+	Description : Web Design Project
+--------------------------------------->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counter-Strikes History</title>
+    <meta charset="utf-8">
+    <meta name="description" content="History of Counter Strike">
+    <meta name="keywords" content="CS 1.6, counter strike, FPS, History, video game">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="icon" href="images/counter_strike_Logo.ico" type="image/gif" sizes="16x16">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/counter_strike_Logo.ico" alt="logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="pageTwo.html">Page 2</a></li>
+            <li><a href="pageThree.html">Page 3</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="body" ;>
+            <div id="header">
+                <p>If you would like to contact us please fill this out and submit it</p>
+            </div>
+            <div id="main">
+
+                <section>
+                    <h3>Please enter the following information:</h3>
+                    <form action="http:/foo.com" method="get">
+
+                        <label for="first_name">First name:<span class="required">*</span></label>
+                        <input type="text" name="first_name" id="first_name" autofocus required><br>
+                        <label for="last_name">Last name:<span class="required">*</span></label>
+                        <input type="text" name="last_name" id="last_name" required><br>
+                        <label for="email">Email:<span class="required">*</span></label>
+                        <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="gender" name="gender" value="male">Male
+                        <input type="radio" id="gender" name="gender" value="female">Female
+                        <input type="radio" id="gender" name="gender" value="other" checked>Other <br>
+                        <label for="internet"> Heard of us:</label>
+                        <fieldset>
+                            <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                            <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Friend<br>
+                            <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Other<br>
+                        </fieldset>
+                        <br>
+
+                        <label for="message">Query : </label>
+
+                        <textarea cols="40" rows="6" id="message" name="message"
+                            placeholder="Your message must be less than 200 characters"
+                            data-maxlength="200"></textarea><br>
+
+                        <input type="submit" name="submit" id="button" value="Submit">
+                        <input type="reset" name="reset" id="reset">
+
+                    </form>
+                    <p style="margin-left: 138px;"><span class="required">*</span> <em> Indicates a required field </em>
+                    </p>
+                    </sectio>
+                </section>
+            </div>
+        </div>
+
+        <footer>
+            <ul>
+                <li><a href="Home.html">Home Page</a></li>
+                <li><a href="pageTwo.html">Page 2</a></li>
+                <li><a>Page 3</a></li>
+            </ul>
+            <small>&copy; 2021 Counter-Strikes History.</small>
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>

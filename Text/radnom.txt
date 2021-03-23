@@ -1,0 +1,39 @@
+<footer>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="video.html">Video Tour</a></li>
+			<li><a href="audio.html">Sound of Food</a></li>
+		</ul>
+		<small>&copy; 2020 sligio Food.</small>
+	</footer>
+
+
+
+footer ul li a {
+	color: white;
+	text-decoration: none;	
+	display: inline;
+}
+
+
+footer {
+
+	clear: both;	
+	border: 1px solid orange;
+	padding: 0;
+	margin-right: 0;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+}
+
+
+footer ul li {
+	list-style-type: none;
+	color: white;
+	display: inline;	
+	padding: 15px;
+}

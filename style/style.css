@@ -1,0 +1,342 @@
+/*--------------------------------------
+	Author: Martin Melody
+	Date : 15/03/2021
+	Description : Web Design Project
+---------------------------------------*/
+
+/* ----------------------------------------Header---------------------------------------- */
+header {
+  background-image: url(../images/csb1.jpg);
+  height: 300px;
+  color: #181c27;
+  border: 5px solid #181c27;
+  padding: 0;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ----------------------------------------End of Header---------------------------------------- */
+
+/* ----------------------------------------Body---------------------------------------- */
+body {
+  background-image: url(../images/BodyImage2.png);
+  color: #fffffb;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+/* ----------------------------------------End of Body---------------------------------------- */
+
+/* ----------------------------------------Navigation---------------------------------------- */
+
+nav {
+  background-color: #b24245;
+  padding: 3px;
+  border: 5px solid #181c27;
+}
+
+nav ul :hover {
+  background-color: #4c576a;
+}
+
+nav ul li {
+  list-style-type: none;
+  background-color: white;
+  display: inline;
+  padding: 15px;
+  margin-right: 5px;
+  border: 3px solid black;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+nav ul li {
+  color: red;
+  text-decoration: none;
+  cursor: url(../images/pointer1.png), pointer;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+  cursor: url(../images/pointer1.png), pointer;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* ----------------------------------------End of Navigation---------------------------------------- */
+
+/* ----------------------------------------Footers---------------------------------------- */
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+footer {
+  clear: both;
+  padding: 0;
+  right: 25%;
+  left: 25%;
+  position: relative;
+  bottom: 0px;
+  width: 50%;
+  text-align: center;
+  bottom: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  color: white;
+  display: inline;
+  padding: 15px;
+}
+
+/* ----------------------------------------End of Footer---------------------------------------- */
+
+/* ----------------------------------------videos---------------------------------------- */
+
+.wrapper {
+  margin: auto;
+  width: 1000px;
+}
+
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  border: 5px solid #181c27;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  border: 5px solid #181c27;
+}
+
+/* ------------------------------End of videos------------------------------ */
+
+/* ------------------------------Contact Us------------------------------ */
+.contactus {
+  position: fixed;
+  background-color: grey;
+  width: 7%;
+  height: auto;
+  border: 1px solid black;
+  bottom: 0;
+  float: left;
+  margin-bottom: 0px;
+}
+
+.contactus a  {
+  color: red;
+  text-decoration: none;
+  cursor: url(../images/pointer1.png), pointer;
+}
+
+
+
+label {
+  float: left;
+  width: 112px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+input {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  width: 220px;
+}
+
+#button,
+#reset {
+  margin-top: 0.5em;
+  width: 8em;
+  background-color: orange;
+  border: 2px solid black;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+}
+
+#button {
+  margin-left: 138px;
+}
+
+#reset {
+  margin-left: 82px;
+}
+
+input[type="radio"] {
+  width: 10px;
+}
+
+.required {
+  font-weight: bold;
+  color: red;
+}
+
+#body {
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  color: black;
+}
+
+#main {
+  margin: 15px 500px;
+  padding: 20px;
+  border: black solid 1px;
+  background: white;
+  min-height: 500px;
+}
+
+#header p {
+  position: relative;
+  font-style: italic;
+  text-align: center;
+}
+
+#ul {
+  list-style-type: none;
+}
+
+#li {
+  display: inline-block;
+}
+
+/* ------------------------------End of Contact Us------------------------------ */
+.container {
+  position: relative;
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  padding-bottom: 20px;
+  border-top-right-radius: 10px;
+  padding-top: 0;
+}
+
+#homeImg {
+  float: right;
+  width: 38.5%;
+}
+
+#active {
+  background-color: #414446;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 2em;
+  padding: 0;
+  margin: 10px;
+}
+
+.box1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #4c576a;
+  border: 5px solid #181c27;
+  display: inline-block;
+  display: right;
+}
+
+.box2 {
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: #4c576a;
+  border: 5px solid #181c27;
+  font-size: 0.5em;
+  text-align: center;
+  display: left;
+}
+
+.logo {
+  border: 5px solid #4c576a;
+}
+
+.BoxTwoHeading {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.BoxTwoText {
+  padding: 20px;
+  text-align: left;
+  font-size: large;
+}
+
+/* .one__icon{
+	background: rgba(0,0,0,.3);
+	color: rgba(0,0,0,.3);
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	font-size: 2em;
+	float: left;
+}	 */
+/*
+.one{
+	background: #202227;	
+	position: relative;
+	border:5px solid #0f121c;
+	width: 80%;
+	height: 10px;
+	margin-left: 10em;
+	
+	
+}
+
+.one:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+.one__boxTwo{
+	background: rgba(0,0,0,.3);
+	color: rgba(0,0,0,.3);
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	font-size: 2em;
+	float: left;
+} 
+
+
+.two{
+	background: #202227;	
+	position: relative;
+	border:5px solid #0f121c;
+	height: 75px;
+	width: 500px;
+	shape-margin: 0px;
+}  */
